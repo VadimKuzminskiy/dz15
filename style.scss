@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+@import '_var';
+@import '_btn';
+@import '_card';
+@import '_name';
+@import '_price';
+
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.h2 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: $green;
+}
+
+.h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: $blue;
+    margin-bottom: 42px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__name {
+    padding: 20px 0 10px;
+}
+
+
